@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C74FEDF122A1F45300D3A8C2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74FEDF022A1F45300D3A8C2 /* DetailsViewController.swift */; };
+		C74FEDF322A1F96F00D3A8C2 /* Bart_Simpson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C74FEDF222A1F96F00D3A8C2 /* Bart_Simpson.jpg */; };
+		C74FEDF622A1FBC000D3A8C2 /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74FEDF522A1FBC000D3A8C2 /* Simpson.swift */; };
 		C7DB97CE22A1465D009B763A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DB97CD22A1465D009B763A /* AppDelegate.swift */; };
 		C7DB97D022A1465D009B763A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DB97CF22A1465D009B763A /* ViewController.swift */; };
 		C7DB97D322A1465D009B763A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DB97D122A1465D009B763A /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C74FEDF022A1F45300D3A8C2 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		C74FEDF222A1F96F00D3A8C2 /* Bart_Simpson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bart_Simpson.jpg; sourceTree = "<group>"; };
+		C74FEDF522A1FBC000D3A8C2 /* Simpson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpson.swift; sourceTree = "<group>"; };
 		C7DB97CA22A1465D009B763A /* Simpson Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simpson Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DB97CD22A1465D009B763A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7DB97CF22A1465D009B763A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C74FEDF422A1F97700D3A8C2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C74FEDF222A1F96F00D3A8C2 /* Bart_Simpson.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		C7DB97C122A1465D009B763A = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +70,11 @@
 		C7DB97CC22A1465D009B763A /* Simpson Book */ = {
 			isa = PBXGroup;
 			children = (
+				C74FEDF422A1F97700D3A8C2 /* images */,
 				C7DB97CD22A1465D009B763A /* AppDelegate.swift */,
 				C7DB97CF22A1465D009B763A /* ViewController.swift */,
+				C74FEDF022A1F45300D3A8C2 /* DetailsViewController.swift */,
+				C74FEDF522A1FBC000D3A8C2 /* Simpson.swift */,
 				C7DB97D122A1465D009B763A /* Main.storyboard */,
 				C7DB97D722A14666009B763A /* Assets.xcassets */,
 				C7DB97D922A14666009B763A /* LaunchScreen.storyboard */,
@@ -125,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C74FEDF322A1F96F00D3A8C2 /* Bart_Simpson.jpg in Resources */,
 				C7DB97DB22A14666009B763A /* LaunchScreen.storyboard in Resources */,
 				C7DB97D822A14666009B763A /* Assets.xcassets in Resources */,
 				C7DB97D322A1465D009B763A /* Main.storyboard in Resources */,
@@ -141,6 +159,8 @@
 				C7DB97D022A1465D009B763A /* ViewController.swift in Sources */,
 				C7DB97CE22A1465D009B763A /* AppDelegate.swift in Sources */,
 				C7DB97D622A1465D009B763A /* Simpson_Book.xcdatamodeld in Sources */,
+				C74FEDF122A1F45300D3A8C2 /* DetailsViewController.swift in Sources */,
+				C74FEDF622A1FBC000D3A8C2 /* Simpson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
